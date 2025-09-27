@@ -11,7 +11,7 @@ Clases:
 - Perro:
     - Nombre: Perro
     - Atributos:
-        - raza (labrador | pastor alemán |)
+        - raza ()
         - colorPelaje
         - tamaño
         - tipoOrejas
@@ -20,15 +20,15 @@ Clases:
 - Accesorio:
     - Nombre: Accesorio
     - Atributos:
-        - tipo (sombrero | gafas)
+        - tipo ()
     - Métodos:
         - aplicarAccesorio()
 - Dibujo:
     - Nombre: Dibujo
     - Atributos:
-        - formato (PNG | JPG)
+        - formato ()
         - perro
-        - accesorios (máx. 2)
+        - accesorios ()
     - Métodos:
         - descargar()
 - Usuario:

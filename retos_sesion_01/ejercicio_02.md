@@ -12,25 +12,25 @@ Clases:
 - Camiseta:
     - Nombre: Camiseta
     - Atributos:
-        - tipoManga (corta | larga)
-        - color (rojo | azul | verde)
-        - talla (S | M | L | XL)
+        - tipoManga ()
+        - color ()
+        - talla ()
     - Métodos:
         - mostrarInfo()
         - calcularPrecio()
 - Pantalon:
     - Nombre: Pantalon
     - Atributos:
-        - tipoTela (mezclilla | tela)
-        - color (negro | gris | blanco)
-        - talla (32–44)
+        - tipoTela ()
+        - color ()
+        - talla ()
     - Métodos:
     - mostrarInfo()
     - calcularPrecio()
 - Pedido:
     - Nombre: Pedido
     - Atributos:
-        - prenda (Camiseta | Pantalon)
+        - prenda ()
         - cantidad 
     - Métodos:
         - calcularTotal() 
